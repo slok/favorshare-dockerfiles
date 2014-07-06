@@ -4,7 +4,7 @@ MAINTAINER Xabier Larrakoetxea <slok69@gmail.com>
 # Update repos
 RUN apt-get update
 
-# Install statsd
+# Install Redis
 RUN apt-get install -y redis-server
 
 # Expose Redis port 6379
